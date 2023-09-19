@@ -1,0 +1,144 @@
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
+h1{
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+ body{
+    padding: 0%;
+    margin: 0%;
+ }
+
+ .navegacion{
+ display:flex;
+ justify-content:space-around;
+ background-color: gray;
+ }
+
+ .opciones{
+   font-size: 20px;
+ display:flex;
+ justify-content: center;
+ align-items:center;
+
+ list-style-type: none;
+ margin: 0%;
+ padding: 0%;
+ }
+
+ .opciones li{
+    padding: 15%;
+ }
+
+ .opciones li a{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    text-decoration: none;
+ }
+
+ #logo{
+    color: white;
+  display: flex;
+  justify-content: end;
+  padding: 300px;
+  background-size: cover;
+  background-image: url("img/skincare3.jpg");
+ }
+
+ #rutinas{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 207, 213);
+    padding: 10%;
+ }
+
+ .rutinas-titulo{
+   font-size: 400%;
+ }
+
+.facial-subtitulo{
+   font-size: 200%;
+}
+
+ .limpieza-facial-item{
+   width: 400px;
+   margin: auto;
+   display: block;
+ }
+
+ .beneficios-subtitulo{
+   font-size: 200%;
+ }
+
+ .beneficios-opciones{
+   font-size: 150%;
+ }
+
+ .tipos-de-piel-subtitulo{
+   font-size: 200%;
+   text-align: center;
+ }
+
+ .info-cuidados{
+   font-size: 150%;
+ }
+
+ .tipos-de-piel-item{
+   float: left;
+   flex-direction: column;
+   width: 500px;
+ }
+
+ h4{
+   font-family: 'Playfair Display', serif;
+ }
+
+ .galeria{
+  display: flex;
+ }
+
+ .galeria-item.imagen{
+  width: 100px;
+  
+ }
+
+.maquillaje-subtitulo{
+  font-size: 200%;
+}
+
+.orden-maquillaje-item{
+  width: 400px;
+  margin: auto;
+  display: block;
+}
+
+#videos-tutoriales{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: #AED6F1;
+padding: 15%;
+}
+
+
+#productos{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  background-color: #82E0AA;
+  padding: 10%;
+}
+
+#cuidados{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  background-color: #BB8FCE;
+  padding: 10%;
+}
